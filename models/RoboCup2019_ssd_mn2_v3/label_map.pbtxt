@@ -1,0 +1,190 @@
+item {
+    id: 1
+    display_name: "Biscuit"
+}
+
+item {
+    id: 2
+    display_name: "Frosty_fruits"
+}
+
+item {
+    id: 3
+    display_name: "Snakes"
+}
+
+item {
+    id: 4
+    display_name: "Cloth"
+}
+
+item {
+    id: 5
+    display_name: "Dishwasher_tab"
+}
+
+item {
+    id: 6
+    display_name: "Sponge"
+}
+
+item {
+    id: 7
+    display_name: "Trash_bags"
+}
+
+item {
+    id: 8
+    display_name: "Beer"
+}
+
+item {
+    id: 9
+    display_name: "Chocolate_milk"
+}
+
+item {
+    id: 10
+    display_name: "Coke"
+}
+
+item {
+    id: 11
+    display_name: "Juice"
+}
+
+item {
+    id: 12
+    display_name: "Lemonade"
+}
+
+item {
+    id: 13
+    display_name: "Tea_bag"
+}
+
+item {
+    id: 14
+    display_name: "Water"
+}
+
+item {
+    id: 15
+    display_name: "Carrot"
+}
+
+item {
+    id: 16
+    display_name: "Cereals"
+}
+
+item {
+    id: 17
+    display_name: "Noodles"
+}
+
+item {
+    id: 18
+    display_name: "Onion"
+}
+
+item {
+    id: 19
+    display_name: "Vegemite"
+}
+
+item {
+    id: 20
+    display_name: "Cheetos"
+}
+
+item {
+    id: 21
+    display_name: "Doritos"
+}
+
+item {
+    id: 22
+    display_name: "Shapes_chicken"
+}
+
+item {
+    id: 23
+    display_name: "Shapes_pizza"
+}
+
+item {
+    id: 24
+    display_name: "Twisties"
+}
+
+item {
+    id: 25
+    display_name: "Bowl"
+}
+
+item {
+    id: 26
+    display_name: "Plate"
+}
+
+item {
+    id: 27
+    display_name: "Glass"
+}
+
+item {
+    id: 28
+    display_name: "Shot_glass"
+}
+
+item {
+    id: 29
+    display_name: "Bag"
+}
+
+item {
+    id: 30
+    display_name: "Apple"
+}
+
+item {
+    id: 31
+    display_name: "Kiwi"
+}
+
+item {
+    id: 32
+    display_name: "Lemon"
+}
+
+item {
+    id: 33
+    display_name: "Orange"
+}
+
+item {
+    id: 34
+    display_name: "Pear"
+}
+
+item {
+    id: 35
+    display_name: "Spoon"
+}
+
+item {
+    id: 36
+    display_name: "Knife"
+}
+
+item {
+    id: 37
+    display_name: "Fork"
+}
+
+item {
+    id: 38
+    display_name: "Trash"
+}
+

@@ -1,0 +1,15 @@
+item {
+    id: 1
+    display_name: "gelatina"
+}
+
+item {
+    id: 2
+    display_name: "salgadinho"
+}
+
+item {
+    id: 3
+    display_name: "lata"
+}
+

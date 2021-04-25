@@ -1,0 +1,65 @@
+item {
+    id: 1
+    display_name: "Biscuit"
+}
+
+item {
+    id: 2
+    display_name: "Chocolate_milk"
+}
+
+item {
+    id: 3
+    display_name: "Gelatine"
+}
+
+item {
+    id: 4
+    display_name: "Orange_juice"
+}
+
+item {
+    id: 5
+    display_name: "Soda_bottle"
+}
+
+item {
+    id: 6
+    display_name: "Toothpaste"
+}
+
+item {
+    id: 7
+    display_name: "Canned_corn"
+}
+
+item {
+    id: 8
+    display_name: "Cup_noodles"
+}
+
+item {
+    id: 9
+    display_name: "Noodles"
+}
+
+item {
+    id: 10
+    display_name: "Snack"
+}
+
+item {
+    id: 11
+    display_name: "Soda_can"
+}
+
+item {
+    id: 12
+    display_name: "Waffer"
+}
+
+item {
+    id: 13
+    display_name: "Cup"
+}
+

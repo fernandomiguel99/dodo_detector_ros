@@ -1,0 +1,60 @@
+item {
+    id: 1
+    display_name: "Milk_box"
+}
+
+item {
+    id: 2
+    display_name: "Milk_bottle"
+}
+
+item {
+    id: 3
+    display_name: "Shampoo"
+}
+
+item {
+    id: 4
+    display_name: "Juice_bottle"
+}
+
+item {
+    id: 5
+    display_name: "Monster"
+}
+
+item {
+    id: 6
+    display_name: "Beer_can"
+}
+
+item {
+    id: 7
+    display_name: "Cereal_box"
+}
+
+item {
+    id: 8
+    display_name: "Medicine"
+}
+
+item {
+    id: 9
+    display_name: "Toddy_box"
+}
+
+item {
+    id: 10
+    display_name: "Tea_box"
+}
+
+item {
+    id: 11
+    display_name: "Milka"
+}
+
+item {
+    id: 12
+    display_name: "Coffee_can"
+}
+
