@@ -1,0 +1,50 @@
+As versoes utilizadas foram:
+-dodo_detector: 0.6.1 
+-dodo_detector_ros: compativel com python2.7 e tf1
+-python2.7
+-tensorflow:1.14.0
+-tensorflow-gpu:1.14.0
+-libcudnn:7.6.0
+
+links:
+
+dodo_detector(0.6.1): https://github.com/douglasrizzo/dodo_detector/releases
+
+dodo_detector_ros: https://github.com/fernandomiguel99/dodo_detector_ros
+
+
+ir na pasta modules.xml dentro de /hera/launch e editar o grupo objects
+
+
+<!-- objects -->
+  <group if="$(arg objects)">
+    <node name="dodo_detector_ros" pkg="dodo_detector_ros" type="detector.py" output="screen">
+        <rosparam command="load" file="$(find dodo_detector_ros)/config/main_config.yaml"/>
+        <param name="image_topic" value="/kinect_one/rgb/image_raw" />
+        <param name="point_cloud_topic" value="/kinect_one/depth/points" />
+    </node>
+    <include file="$(find hera_objects)/launch/objects.launch" />
+  </group>
+
+
+para usar o dodo_detector_ros, sao necessarios os arquivos obtidos apartir do treinamento.
+
+dentro da pasta dodo_detector_ros dentro de Vision_system criar uma pasta chamada saved_model
+
+dentro do arquivo config.yaml dentro da pasta config devemos mudar umas coisas
+-> alterar o detector_type para ssd
+
+-> alterar o caminho do model_dir para
+  ~/home/fernando/catkin_hera/src/vision_system/dodo_detector_ros/saved_model/frozen_inference_graph.pb
+
+-> alterar o caminho do label_map para
+  ~/home/fernando/catkin_hera/src/vision_system/dodo_detector_ros/saved_model/Label_Map.pbtxt
+
+agr devemos pegar os arquivos gerados no treinamento e colocar o arquivo fronze_inference.pb e o Label_Map.pbtxt dentro da pasta saved_models
+
+abrir a pasta src e editar as propriedades do arquivo detector.py para permitir ser executado como programa
+
+voltar para a pasta vision_system e ir para a pasta hera_objects/src
+
+editar as propriedades do arquivo detector.py para permitir ser executado como programa
+
