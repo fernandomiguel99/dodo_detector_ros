@@ -15,4 +15,4 @@ sift_min_pts: 10
 sift_database_path: ~/.dodo_detector_ros/sift_database
 
 # the frame or tf that all object tfs will be published in relation to, leave blank to publish wrt. camera_link
-#global_frame: map
+global_frame: kinect_one_optical

@@ -147,7 +147,7 @@ class Detector:
                         # if the user passes a fixed frame, we'll ask for transformation
                         # vectors from the camera rgb optical fram to the fixed frame
                         if self._global_frame is not None:
-                            (trans, _) = self._tf_listener.lookupTransform('/' + self._global_frame, '/camera_rgb_optical_frame', rospy.Time(0))
+                            (trans, _) = self._tf_listener.lookupTransform('/' + self._global_frame, '/kinect_one_optical', rospy.Time(0))
 
                         # convert image from the subscriber into an OpenCV image
                         scene = self._bridge.imgmsg_to_cv2(self._current_image, 'rgb8')
@@ -213,7 +213,7 @@ class Detector:
                                 if publish_tf:
                                     # kinect here is mapped as camera_rgb_optical_frame
                                     object_tf = [point_x, point_y, point_z]
-                                    frame = 'camera_rgb_optical_frame'
+                                    frame = 'kinect_one_optical'
 
                                     # translate the tf in regard to the fixed frame
                                     if self._global_frame is not None:
