@@ -1,15 +1,200 @@
 item {
     id: 1
-    display_name: "gelatina"
+    display_name: "chocolate pudding box"
 }
 
 item {
     id: 2
-    display_name: "salgadinho"
+    display_name: "cracker box"
 }
 
 item {
     id: 3
-    display_name: "lata"
+    display_name: "domino sugar box"
+}
+
+item {
+    id: 4
+    display_name: "master chef coffee can"
+}
+
+item {
+    id: 5
+    display_name: "mustard bottle"
+}
+
+item {
+    id: 6
+    display_name: "plastic apple"
+}
+
+item {
+    id: 7
+    display_name: "plastic banana"
+}
+
+item {
+    id: 8
+    display_name: "plastic lemon"
+}
+
+item {
+    id: 9
+    display_name: "plastic orange"
+}
+
+item {
+    id: 10
+    display_name: "plastic peach"
+}
+
+item {
+    id: 11
+    display_name: "plastic pear"
+}
+
+item {
+    id: 12
+    display_name: "plastic plum"
+}
+
+item {
+    id: 13
+    display_name: "plastic strawberry"
+}
+
+item {
+    id: 14
+    display_name: "spam potted meat can"
+}
+
+item {
+    id: 15
+    display_name: "strawberry gelatin box"
+}
+
+item {
+    id: 16
+    display_name: "tomato soup can"
+}
+
+item {
+    id: 17
+    display_name: "tuna fish can"
+}
+
+item {
+    id: 18
+    display_name: "bowl"
+}
+
+item {
+    id: 19
+    display_name: "cleanser bottle"
+}
+
+item {
+    id: 20
+    display_name: "fork"
+}
+
+item {
+    id: 21
+    display_name: "mug"
+}
+
+item {
+    id: 22
+    display_name: "pitcher base"
+}
+
+item {
+    id: 23
+    display_name: "plate"
+}
+
+item {
+    id: 24
+    display_name: "spatula"
+}
+
+item {
+    id: 25
+    display_name: "sponge"
+}
+
+item {
+    id: 26
+    display_name: "spoon"
+}
+
+item {
+    id: 27
+    display_name: "baseball"
+}
+
+item {
+    id: 28
+    display_name: "chain"
+}
+
+item {
+    id: 29
+    display_name: "cups"
+}
+
+item {
+    id: 30
+    display_name: "dice"
+}
+
+item {
+    id: 31
+    display_name: "foam bricks"
+}
+
+item {
+    id: 32
+    display_name: "golf ball"
+}
+
+item {
+    id: 33
+    display_name: "marbles"
+}
+
+item {
+    id: 34
+    display_name: "mini soccer ball"
+}
+
+item {
+    id: 35
+    display_name: "racquetball"
+}
+
+item {
+    id: 36
+    display_name: "soft ball"
+}
+
+item {
+    id: 37
+    display_name: "tennis ball"
+}
+
+item {
+    id: 38
+    display_name: "task - toy airplane"
+}
+
+item {
+    id: 39
+    display_name: "clamps"
+}
+
+item {
+    id: 40
+    display_name: "large marker"
 }
 
