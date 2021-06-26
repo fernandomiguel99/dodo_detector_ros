@@ -1,3 +1,8 @@
+This repository is a copy of an older version of Dodo Detector for ROS 1 using Tensforflow 1.14.0 and Python2.7
+
+# Original Author:
+Douglas Rizzo: https://github.com/douglasrizzo
+
 # Object detection from images/point cloud using ROS
 
 This ROS package creates an interface with [dodo detector](https://github.com/douglasrizzo/dodo_detector), a Python package that detects objects from images.
